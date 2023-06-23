@@ -1,0 +1,87 @@
+:root{
+    --cor-primaria: #13293d;
+    --cor-secundaria: #247ba0;
+    --cor-terciaria: #e8f1f2; 
+}
+body{
+    background-color: var(--cor-primaria);
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    max-width: 1280px;
+}
+
+.container{
+    height: 525px;
+    width: 350px;
+    margin: 50px auto;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+}
+
+#titulo{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 20px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+.form{
+    padding: 0 20px 0 20px;
+}
+
+.form label,
+.form .form-select,
+.form p{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-input{
+    background-color: #ffffff;
+    max-width: 40px; 
+    padding: 5px 5px 8px 8px;
+    border: 1px solid #b0b0b0;
+    border-radius: 2px;
+}
+
+.form-input:focus, 
+.form-select:focus{
+    border: 3px solid var(--cor-primaria);
+
+}
+
+.form-select{
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.form-submmit{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+.form-submmit:hover{
+    transform: scale(1.05);
+    background-color: var(--cor-secundaria);
+}
+
+#gorjetaTotal{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
